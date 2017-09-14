@@ -1,0 +1,11 @@
+{
+  "clients": [
+    {
+      "nome": "Juliana",
+      "sobrenome": "Tibães",
+      "email": "juliana.tibaes@up.edu.br",
+      "telefone": "9999-9999",
+      "isRepresentante": "true"
+    }
+  ]
+}

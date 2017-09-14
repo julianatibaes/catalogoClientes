@@ -1,0 +1,20 @@
+<a href="#">
+  <div class="place-info-box">
+    <span class="place-info-box-icon">
+      <img src="https://i.pinimg.com/236x/09/e4/88/09e488cac2b160c9af3870729b564d00--pin-up-girls-cute-girls.jpg"/>
+    </span>
+
+    <div *ngIf="clientModel">
+      <div class="place-info-box-content">
+        <span class="place-info-box-text">{{ clientModel.nome }} {{ clientModel.sobrenome }}</span>
+        <br/>
+        <span class="place-info-box-detail"> {{ clientModel.email }} </span>
+        <span class="place-info-box-detail"> {{ clientModel.telefone }} </span>
+        <div *ngIf="!clientModel.isRepresentante">
+          <span class="place-info-box-detail">RG: {{ clientModel.rgRepresentado }}</span>
+        </div>
+        <!--Cliente: <a href="#" (click)="clicked()"> {{clientModel.nome}} </a> -->
+      </div>
+    </div>
+  </div>
+</a>

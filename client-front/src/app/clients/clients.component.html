@@ -1,0 +1,23 @@
+<section class="content-header">
+    <h5 class="pink-text text-accent-3">
+      Todos os clientes
+    </h5>
+</section>
+
+<section class="content">
+  <div class="row">
+    <a md-button [routerLink]="['/novo']">Novo</a>
+  </div>
+  <div class="row">
+    <div *ngFor="let client of clients" class="col s12 m6">
+      <clif-client  [clientModel]="client"></clif-client>
+    </div>
+
+    <div class="col s12" *ngIf="clients?.length === 0">
+      <p class="lead text-center">
+        Não foram encontrado itens para sua busca.
+      </p>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,38 @@
+{
+  "clients": [
+
+      {
+      "nome": "Juliana",
+      "sobrenome": "Tibães",
+      "email": "juliana.tibaes@up.edu.br",
+      "telefone": "9999-9999",
+      "isRepresentante": "true"
+    },
+    {
+      "nome": "Judity",
+      "sobrenome": "Borsato",
+      "email": "contato@up.edu.br",
+      "telefone": "9999-8888",
+      "isRepresentante": "false",
+      "rgRepresentado": "43.444.444.444-3"
+    },
+
+    {
+      "nome": "Julia",
+      "sobrenome": "Silva",
+      "email": "contato@up.edu.br",
+      "telefone": "9999-7777",
+      "isRepresentante": "false",
+      "rgRepresentado": "53.555.555.555-3"
+    },
+
+    {
+      "nome": "Janaina",
+      "sobrenome": "Carmo",
+      "email": "contato@up.edu.br",
+      "telefone": "9999-6666",
+      "isRepresentante": "true"
+    }
+  ]
+}
+
